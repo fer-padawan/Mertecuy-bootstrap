@@ -1,0 +1,46 @@
+/*Globales*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/*MENU*/
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(19, 126, 197);
+}
+/* Slider*/
+.carousel-inner{
+    max-height: 39rem;
+}
+/*Seccion Equipo imagen*/
+/*Seccion Equipo mapa*/
+/*Contactos background*/
+/*Contactos formulario*/
+/*Footer*/
+/*media queries pantalla ancha*/
+/*media queries pantalla sm*/
+@media (max-width:768px){
+    #intro, #equipo {
+        width: 90% !important;
+    }
+    #equipo p {
+        display: none;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+/*media queries pantalla extra-sm*/
+@media(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
